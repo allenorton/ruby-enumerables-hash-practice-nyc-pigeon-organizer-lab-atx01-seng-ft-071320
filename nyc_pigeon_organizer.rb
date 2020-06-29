@@ -19,11 +19,12 @@ def nyc_pigeon_organizer(data)
         #binding.pry
       #3
       end
-      binding.pry 
+      #binding.pry 
     #2 
     end
     finA
   #1 
   end
+  binding.pry 
 #main
 end
