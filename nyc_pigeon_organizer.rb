@@ -9,11 +9,13 @@ def nyc_pigeon_organizer(data)
     value.each do |color, names|
       #3
       names.each do |name|
+        if 
         binding.pry
       #3
       end
     #2 
     end
+    finA
   #1 
   end
 #main
