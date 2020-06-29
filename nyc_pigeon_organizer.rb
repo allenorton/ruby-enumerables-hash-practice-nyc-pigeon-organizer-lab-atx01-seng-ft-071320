@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
         if !finA[name]
           finA[name] = {}
         end 
-        binding.pry
+        #binding.pry
       #3
       end
     #2 
@@ -20,5 +20,6 @@ def nyc_pigeon_organizer(data)
     finA
   #1 
   end
+  binding.pry 
 #main
 end
