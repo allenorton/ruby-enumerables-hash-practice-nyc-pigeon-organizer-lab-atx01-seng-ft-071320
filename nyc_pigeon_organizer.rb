@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   #1 
   results = data.each_with_object({}) do |(key, value), finA|
     #2 
-    value.each do |color, names|
+    value.each do |in_key, names|
       #3
       names.each do |name|
         if !finA[name]
@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
         if !finA[name][key]
           finA[name][key] = [] 
         end 
-        finA[name][key].push(color)
+        finA[name][key].push(in_key)
         #binding.pry
       #3
       end
