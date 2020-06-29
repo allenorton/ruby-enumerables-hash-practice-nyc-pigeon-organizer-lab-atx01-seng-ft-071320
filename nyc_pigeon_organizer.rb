@@ -15,6 +15,7 @@ def nyc_pigeon_organizer(data)
         if !finA[name][key]
           finA[name][key] = [] 
         end 
+        finA[name][key].push(color)
         #binding.pry
       #3
       end
